@@ -17,6 +17,7 @@ def yx(x):
     x = radians(x)
     return -log((cos(x) + sin(x))**2 + 1.7) + 2
 
+
 # arg values and func values 
 xlist = list(np.linspace(-240, 360, (360 - (-240)) + 1))
 flist = [fx(x) for x in xlist]
